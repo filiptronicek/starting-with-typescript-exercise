@@ -1,4 +1,4 @@
-function doIt(): void {
-    const theText = "Hello World";
+function doIt(msg: string): void {
+    const theText = msg;
     alert(theText);
 }
